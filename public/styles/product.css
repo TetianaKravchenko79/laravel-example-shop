@@ -1,0 +1,105 @@
+.product_rating {
+    padding-left: 5px;
+}
+.rating_r i:not(:last-of-type) {
+    margin-right: 4px;
+}
+.rating_r i::before {
+    font-family: "FontAwesome";
+    content: "\f006";
+    font-style: normal;
+    font-size: 16px;
+    color: #4a4a4a;
+}
+.rating_r_1 i:first-child::before {
+    content: "\f005";
+}
+.rating_r_2 i:first-child::before {
+    content: "\f005";
+}
+.rating_r_2 i:nth-child(2)::before {
+    content: "\f005";
+}
+.rating_r_3 i:first-child::before {
+    content: "\f005";
+}
+.rating_r_3 i:nth-child(2)::before {
+    content: "\f005";
+}
+.rating_r_3 i:nth-child(3)::before {
+    content: "\f005";
+}
+.rating_r_4 i:first-child::before {
+    content: "\f005";
+}
+.rating_r_4 i:nth-child(2)::before {
+    content: "\f005";
+}
+.rating_r_4 i:nth-child(3)::before {
+    content: "\f005";
+}
+.rating_r_4 i:nth-child(4)::before {
+    content: "\f005";
+}
+.rating_r_5 i:first-child::before {
+    content: "\f005";
+}
+.rating_r_5 i:nth-child(2)::before {
+    content: "\f005";
+}
+.rating_r_5 i:nth-child(3)::before {
+    content: "\f005";
+}
+.rating_r_5 i:nth-child(4)::before {
+    content: "\f005";
+}
+.rating_r_5 i:nth-child(5)::before {
+    content: "\f005";
+}
+
+.product_size {
+    margin-top: 43px;
+}
+.product_size_title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #4a4a4a;
+}
+.product_size ul {
+    margin-top: 22px;
+}
+.regular_radio {
+    display: none;
+}
+.regular_radio:checked + label {
+    color: #2fce98;
+    border-color: #2fce98;
+}
+.regular_radio + label {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    width: 36px;
+    height: 36px;
+    background: transparent;
+    border: solid 2px #4a4a4a;
+    color: #4a4a4a;
+    cursor: pointer;
+    margin-right: 14px;
+    font-weight: 700;
+}
+.regular_radio[disabled] + label {
+    border: solid 2px #969696;
+    color: #969696;
+    cursor: default;
+}
