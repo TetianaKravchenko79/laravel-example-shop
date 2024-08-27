@@ -95,63 +95,63 @@ class DatabaseSeeder extends Seeder
         Count::create(
             [
                 'product_id' => 3,
-                'size_id' => 2,
+                'size_id' => 1,
                 'count' => 7,
             ]
         ); 
         Count::create(
             [
                 'product_id' => 3,
-                'size_id' => 3,
+                'size_id' => 2,
                 'count' => 5,
             ]
         ); 
         Count::create(
             [
                 'product_id' => 3,
-                'size_id' => 4,
+                'size_id' => 3,
                 'count' => 6,               
             ]
         );
         Count::create(
             [
                 'product_id' => 8,
-                'size_id' => 2,
+                'size_id' => 1,
                 'count' => 7,
             ]
         ); 
         Count::create(
             [
                 'product_id' => 8,
-                'size_id' => 3,
+                'size_id' => 2,
                 'count' => 5,
             ]
         ); 
         Count::create(
             [
                 'product_id' => 8,
-                'size_id' => 4,
+                'size_id' => 3,
                 'count' => 6,               
             ]
         );
         Count::create(
             [
                 'product_id' => 6,
-                'size_id' => 2,
+                'size_id' => 1,
                 'count' => 7,
             ]
         ); 
         Count::create(
             [
                 'product_id' => 6,
-                'size_id' => 3,
+                'size_id' => 2,
                 'count' => 5,
             ]
         ); 
         Count::create(
             [
                 'product_id' => 6,
-                'size_id' => 4,
+                'size_id' => 3,
                 'count' => 6,               
             ]
         );          
